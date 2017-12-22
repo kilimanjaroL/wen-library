@@ -1,4 +1,4 @@
-/*
+﻿/*
 Navicat MySQL Data Transfer
 
 Source Server         : junjun
@@ -77,4 +77,4 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('徐狗子', '12', '2', '2', '读书使人强大，懒冻使人坚强');
+INSERT INTO `user` VALUES ('夏花', '12', '2', '2', '读书使人强大，懒冻使人坚强');

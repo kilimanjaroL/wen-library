@@ -1,5 +1,5 @@
-function getBook(){
-	$.get('/all_news',(news)=>{
+﻿function getBook(){
+	$.get('/all_news',(news)=>{   //news是全部数据库中的数据
 		
 		for(var i=0;i<news.length;i++){
 			var max=news[i];
@@ -10,10 +10,10 @@ function getBook(){
 					news[j]=news[i];
 					news[i]=max;
 				}
-			}
-		}
+			}  
+		}          //对数据进行排序操作，按照被借数量的大小，并放到数组news中
 		console.log(news);
-		$('#book_list').html('');
+		$('#book_list').html('');//选择HTML页面的图书排行榜的位置
 		for(var i=0;i<8;i++){
 			var tr=$('<tr></tr>');
 			var td_1=$('<td></td>');
@@ -28,10 +28,10 @@ function getBook(){
 			tr.append(td_2);
 			tr.append(td_3);
 			tr.append(td_4);
-			$('#book_list').append(tr);
+			$('#book_list').append(tr); //append() 方法在被选元素的结尾（仍然在内部）插入指定内容。
 			
 		}
-	});
+	});   //将news数组中的数据展示在网页上
 	
 
 }
@@ -50,17 +50,15 @@ function xxx(){
     ,btn2:function(){
         layer.msg('按钮2')
     }});
-}
-function searchBook(){
-	
-}
+}   //显示出是否借书的提示
+
 
 function getBookInfo(){
 	var book=document.querySelectorAll(".hot_search a");
 	console.log(book[0]);
 	for(var i=0;i<book.length;i++){
 		book[i].addEventListener('click',function(e){
-			var reqx=e.target.innerText;
+			var reqx=e.target.innerText;  //点击事件的文本赋予reqx
 			$.get('/all_news',(news)=>{
 				for(var i=0;i<news.length;i++){
 					if(news[i].name==reqx){
@@ -73,7 +71,7 @@ function getBookInfo(){
 			});
 		});
 	}
-}
+}       //排行榜根据页面书的名字，将得到数据库中这本书详细信息，并将之暂存到浏览器数据库sessionStorage中，后转到下个book.html页面
 function getOne(){
 	var bookName=sessionStorage.getItem(2);
 	$.get('/all_news',(news)=>{
@@ -87,7 +85,7 @@ function getOne(){
 				}
 			});
 	
-}
+} //新进图书，得到数据库详细信息，并将之暂存到浏览器数据库sessionStorage中，后转到下个book.html页面
 function getTwo(){
 	var bookName=sessionStorage.getItem(3);
 	$.get('/all_news',(news)=>{

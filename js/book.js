@@ -1,5 +1,5 @@
-$().ready(()=>{
-	var news = sessionStorage.getItem("1");
+﻿$().ready(()=>{
+	var news = sessionStorage.getItem("1"); //书籍详情页数据的显示
 	var y=JSON.parse(news);
 	console.log(news);
 	inFO(y);
