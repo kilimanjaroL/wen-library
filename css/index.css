@@ -3,13 +3,13 @@
 	padding:0px;
 }
 .main_content{
-	width:100%;
+	width:1350px;
 	height:500px;
 	background-image:url("../image/index.jpg");
 	opacity:1;
 } 
 .main_content .top{
-	width:100%;
+	width:1350px;
 	height:50px;
 	color:white;
 	background: rgba(52, 52, 52, 0.6);
@@ -127,7 +127,7 @@
 	float:left;
 }
 .bookPaihang{
-	width:100%;
+	width:1350px;
 	height:520px;
 	text-align:center;
 
@@ -188,7 +188,7 @@
 	float:right;
 }
 .hotforu{
-	width:100%;
+	width:1350px;
 	height:330px;
 	
 }
@@ -208,7 +208,7 @@
    font-size:20px;
 }
 .hotforu .book_list{
-	width:100%;
+	width:1350px;
 	height:180px;
 	text-align:center;
 }
