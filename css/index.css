@@ -133,7 +133,7 @@
 
 }
 .bookPaihang .left_book{
-	width:320px;
+	width:30%;
 	height:460px;
 	float:left;
 
@@ -165,7 +165,7 @@
     border: solid 2px #eeeeee;
 }
 .bookPaihang .right_book{
-	width:1010px;
+	width:70%;
 	height:460px;
 	float:right;
 	border-radius:25px;
@@ -213,7 +213,7 @@
 	text-align:center;
 }
 .hotforu .book_list .book_all{
-	width:400px;
+	width:30%;
 	height:180px;
 	float:left;
 	background: rgba(52, 52, 52, 0.6);
@@ -221,12 +221,12 @@
 	border-radius:10px;
 }
 .hotforu .book_list .book_all .book{
-	width:200px;
+	width:15%;
 	height:180px;
 	float:left;
 }
 .hotforu .book_list .book_all .book_introduce{
-	width:200px;
+	width:15%;
 	height:180px;
 	
 	float:left;
@@ -238,7 +238,7 @@
 	font-size:12px;
 }
 .hotforu .book_list .no{
-	width:35px;
+	width:4%;
 	height:180px;
 	float:left;
 }
