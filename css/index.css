@@ -3,26 +3,27 @@
 	padding:0px;
 }
 .main_content{
-	width:1350px;
-	height:500px;
+	width:100%;
+	height:600px;
 	background-image:url("../image/index.jpg");
+	background-size: 100%;
 	opacity:1;
 } 
 .main_content .top{
-	width:1350px;
-	height:50px;
+	width:100%;
+	height:60px;
 	color:white;
 	background: rgba(52, 52, 52, 0.6);
 	position:fixed;
 }
 .main_content .top .left_part{
-	width:640px;
-	height:50px;
+	width:740px;
+	height:60px;
 	float:left;
 	
 }
 .main_content .top .left_part .tag{
-	width:596px;
+	width:696px;
 	height:50px;
 	float:right;
 	line-height:50px;
@@ -61,11 +62,11 @@
 }
 
 .main_content .top .right_part{
-	width:175px;
-	height:50px;
+	width:275px;
+	height:60px;
 	float:right;
 	font-size:20px;
-	line-height:50px;
+	line-height:60px;
 }
 .main_content .top .right_part a:hover{
 	cursor:pointer;

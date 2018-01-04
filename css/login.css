@@ -3,18 +3,19 @@
 	padding:0px;
 } 
 .top{
-	height:100px;
+	height:15%;
 }
 .content{
-    height: 600px;
-    background: url(../image/hr_login.png) no-repeat center;
+    height: 70%;
+    background: url(../image/hr_login.png) center;
+	background-size: 100% 70%;
 }
 .content .login{
-	width: 380px;
-	height: 400px;
+	width: 25%;
+	height: 80%;
 	position: absolute;
-	top: 130px;
-	right: 100px;
+	top: 10%;
+	right: 15%;
 	background:white;
 }
 .content .login .login-title{
